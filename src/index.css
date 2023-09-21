@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
 body {
-  margin:0;
+  margin: 0;
 }
+
 #app {
   padding: 56px 20px;
   min-height: 100vh;
@@ -56,6 +58,10 @@ body {
   align-items: center;
   justify-content: center;
   bottom: -28px;
+}
+
+.nextBtn:hover {
+  box-shadow: 0 0 33px hsl(150, 100%, 66%);
 }
 
 @media (max-width:700px) {
